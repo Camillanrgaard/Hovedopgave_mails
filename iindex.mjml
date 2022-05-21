@@ -1,0 +1,168 @@
+<mjml>
+    <mj-head>
+        <mj-font name="abel" href="https://fonts.googleapis.com/css2?family=Abel" /> 
+        <mj-all padding="0" />
+        <!-- -------------------- STYLING -------------------- -->
+        <mj-style>
+            .text div{
+                font-family: abel !important;
+                font-size: 17px !important;
+                color: #707070 !important;
+                line-height: 25px !important;
+            }
+            .heading div{
+                text-align: center !important;
+                font-size: 40px !important;
+                color: #707070 !important;
+                line-height: 40px !important;
+                margin-bottom: 20px;
+            }
+            a{
+                text-decoration: none !important;
+            }
+            .link-text a{
+                color: #707070 !important;
+            }
+            g{ /* GOLD TEXT */
+                color: #d7b46e !important; 
+            }
+            p{
+                margin: 0 !important;
+            }
+            .center div{ /* CENTER TEXT */
+                text-align: center !important;
+                margin: 0 auto !important;
+            }
+            .right div{ /* CENTER TEXT */
+              text-align: right !important;
+            }
+            .group div{
+                text-align: center !important;
+                width: auto !important;
+            }
+            .btn div{
+                color: #fffffe !important;
+                height: 40px !important;
+                width: 200px !important;
+                text-align: center !important;
+                margin: 0 auto !important;
+                cursor: pointer !important;
+            }
+            .btn :hover td, .btn :hover a{
+                background-color: #fffffe !important; 
+                color: #d7b46e !important;
+                cursor: pointer !important;
+            }
+            .icons{
+                vertical-align: middle !important;
+                padding: 10px !important;
+                border-right: 2px solid #fffffe !important;
+                float: left !important;
+                background-color: #d7b46e !important;
+            }
+            .some_icon{
+                border-radius: 5px !important;
+            }
+            .copyright div{
+                font-family: abel !important;
+                font-size: 11px !important;
+                color: #707070 !important;
+                line-height: 25px !important;
+            }
+            .usp-text div, .footer p{
+                font-family: abel !important;
+                font-size: 14px !important;
+                line-height: 22px !important;
+                color: #707070 !important;
+            }
+            @media only screen and (max-width: 480px) {
+                .footer div{
+                    text-align: center !important;
+                }  
+            }
+        </mj-style>
+    </mj-head> 
+    <mj-body>
+        <mj-section>
+            <mj-column>
+                <mj-image width="200px" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/logo_mail.png?v=1649241442"></mj-image>
+                <mj-divider border-color="#d7b46e" border-width="1px"></mj-divider>
+                <mj-text css-class="text heading">Velkommen til nyhedsmails</mj-text>
+                <mj-text css-class="text">Hej *navn*</mj-text>
+                <!-- -------------------- TEXT -------------------- -->
+                <mj-text css-class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mj-text>
+                <!-- -------------------- CTA-BTN -------------------- -->
+                <mj-button css-class="btn hover" href="tel:+4551949561" background-color="#d7b46e" font-size="17px" font-family="abel" inner-padding="10px" border="2px solid #d7b46e">Bekræft tilmelding</mj-button>
+                <!-- -------------------- TEXT -------------------- -->
+                <mj-text css-class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</mj-text>
+                <mj-text css-class="text center">Kærlig hilsen</mj-text>
+                <mj-image width="200px" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/underskrift.png?v=1649245009"></mj-image>
+            </mj-column>  
+        </mj-section>
+        <!-- -------------------- CONTACT BTNS -------------------- -->
+        <mj-section background-color="#d7b46e">
+        <!-- -------------------- CALL US -------------------- -->
+            <mj-column vertical-align="middle">
+                <mj-button css-class="btn hover" href="tel:+4551949561" target="_blank" background-color="#d7b46e" font-size="17px" font-family="abel" inner-padding="0px" border="2px solid #fffffe" width="145px" line-height="43px">
+                    <img class="icons" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/icon_phone2.png?v=1650025218">
+                    Ring til os
+                </mj-button>
+            </mj-column>
+        <!-- -------------------- TEXT US -------------------- -->
+                <mj-column vertical-align="middle">
+                    <mj-button css-class="btn hover" href="mailto:rideudstyr@debelmose.dk" target="_blank" background-color="#d7b46e" font-size="17px" font-family="abel" inner-padding="0px" border="2px solid #fffffe" width="145px" line-height="43px">
+                        <img class="icons" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/icon_mail2.png?v=1650025609">
+                        Skriv til os
+                    </mj-button>
+                </mj-column>
+        <!-- -------------------- FIND US -------------------- -->
+                <mj-column vertical-align="middle">
+                    <mj-button css-class="btn hover" href="https://goo.gl/maps/xRGfVUSao4ofyAHq5" target="_blank" background-color="#d7b46e" font-size="17px" font-family="abel" inner-padding="0px" border="2px solid #fffffe" width="145px" line-height="43px">
+                        <img class="icons" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/icon_location2.png?v=1650025609">
+                        Find os
+                    </mj-button>
+                </mj-column>
+        </mj-section>
+        <!-- -------------------- FOOTER -------------------- -->
+        <mj-section css-class="footer" padding="0">
+            <mj-column  width="40%">
+                <mj-text css-class="text link-text"><p><a href="mailto:rideudstyr@debelmose.dk" target="_blank">rideudstyr@debelmose.dk</a> <br><a href="tel:+4551949561" target="_blank">+45 51949561</a> <br><a href="https://goo.gl/maps/xRGfVUSao4ofyAHq5" target="_blank">Debelmosevej 3  <br>6900 Skjern </a><br>CVR: 32165400</p></mj-text>
+            </mj-column>
+            <mj-column width="60%">
+                <mj-text css-class="text right"><p>Butikken har åben alle hverdage fra 10.00 - 14.00 og i weekender åben efter aftale. Du er altid velkommen til at ringe eller skrive en mail til os, hvis du har brug for professionel vejledning i valg af rideudstyr og foder!</p></mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- -------------------- FOOTER - SoMe BTNS -------------------- -->
+        <mj-section css-class="group" padding="10px">
+            <mj-group>
+                <mj-column width="40px" padding="3px">
+                    <mj-image href="https://www.facebook.com/debelmoserideudstyr" target="_blank" css-class="some_icon" container-background-color="#d7b46e" padding="5px" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/facebook.png?v=1649936041"></mj-image>
+                </mj-column>
+                <mj-column width="40px" padding="3px" >
+                    <mj-image href="https://www.instagram.com/debelmoserideudstyr" target="_blank" css-class="some_icon" container-background-color="#d7b46e" padding="5px" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/instagram.png?v=1649936041"></mj-image>
+                </mj-column>
+                <mj-column width="145px" padding="3px">
+                    <mj-image href="https://dk.trustpilot.com/review/debelmose-rideudstyr.dk" target="_blank" padding="3px" src="https://cdn.shopify.com/s/files/1/0550/9405/0977/files/trustpilot.png?v=1649319798"></mj-image>
+                </mj-column>
+            </mj-group>
+        </mj-section>
+        <!-- -------------------- FOOTER - USP -------------------- -->
+        <mj-section padding="0">
+            <mj-column>
+               <mj-text padding="5px" css-class="usp-text center">Fragtfri levering på ordrer over DKK 499,-<g>&nbsp;|&nbsp;</g>Hurtig levering på 1-6 hverdage<g>&nbsp;|&nbsp;</g>14 dages fuld returret<g>&nbsp;|&nbsp;</g>Professionel vejledning<g>&nbsp;|&nbsp;</g>Glade kunder</mj-text>
+            </mj-column>
+        </mj-section>
+        <!-- -------------------- FOOTER - LINE -------------------- -->
+        <mj-section padding="0">
+            <mj-column>
+               <mj-divider padding="0" border-color="#d7b46e" border-width="1px"></mj-divider>
+            </mj-column>
+        </mj-section>
+        <!-- -------------------- FOOTER - COPYRIGHT -------------------- -->
+          <mj-section padding="0">
+            <mj-column>
+               <mj-text padding="0" css-class="copyright center">© 2022 Debelmose Rideudstyr, drevet af m.wennerwald og c.nørgaard.</mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
